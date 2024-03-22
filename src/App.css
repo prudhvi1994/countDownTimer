@@ -1,0 +1,114 @@
+/* App.css */
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4A00E0, #8E2DE2);
+}
+
+.content {
+  text-align: center;
+  color: white;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  margin-right: 10px;
+}
+
+.countdown-container {
+  display: flex;
+  justify-content: center;
+}
+
+.countdown-item {
+  margin: 0 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.countdown-item span:first-child {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.countdown-item span:last-child {
+  font-size: 0.8em;
+  color: #eee;
+}
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4A00E0, #8E2DE2);
+}
+
+.content {
+  text-align: center;
+  color: white;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  width: 200px; /* Adjust width as needed */
+  height: 40px; /* Adjust height as needed */
+  margin-right: 10px;
+  padding: 5px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+}
+
+.input-container input:focus {
+  outline: none;
+}
+
+.input-container button {
+  width: 150px; /* Adjust width as needed */
+  height: 40px; /* Adjust height as needed */
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.input-container button:focus {
+  outline: none;
+}
+
+.countdown-container {
+  display: flex;
+  justify-content: center;
+}
+
+.countdown-item {
+  margin: 0 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.countdown-item span:first-child {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.countdown-item span:last-child {
+  font-size: 0.8em;
+  color: #eee;
+}
